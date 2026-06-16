@@ -201,7 +201,7 @@ function WorkPage() {
           </p>
           <div className="mt-8">
             <a
-              href="mailto:shruthiramrs@example.com"
+              href="https://www.linkedin.com/in/shruthi-ram-r-s-a6b7b62b5/"
               className="btn-primary inline-flex items-center gap-2 px-6 py-3 text-sm font-semibold"
             >
               Reach Out <ArrowRight className="size-4" />

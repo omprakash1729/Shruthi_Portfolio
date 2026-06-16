@@ -266,7 +266,7 @@ function HomePage() {
         </p>
         <div className="mt-8 flex flex-wrap gap-3 justify-center">
           <a
-            href="mailto:shruthiramrs@example.com"
+            href="https://www.linkedin.com/in/shruthi-ram-r-s-a6b7b62b5/"
             className="btn-primary inline-flex px-6 py-3 text-sm font-semibold gap-2 items-center"
           >
             Start a Project <BarChart3 className="size-4" />

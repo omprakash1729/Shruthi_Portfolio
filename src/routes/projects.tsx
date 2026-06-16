@@ -159,7 +159,7 @@ function ProjectsPage() {
             Let's build something meaningful together.
           </h3>
           <a
-            href="mailto:shruthiramrs@example.com"
+            href="https://www.linkedin.com/in/shruthi-ram-r-s-a6b7b62b5/"
             className="mt-auto pt-6 inline-flex items-center gap-2 self-start rounded-full bg-background text-foreground px-5 py-2.5 text-sm font-semibold hover:bg-card-elevated transition-colors"
           >
             Say Hello <ArrowRight className="size-4" />
