@@ -73,6 +73,48 @@ const experience = [
   },
 ];
 
+const toolCategories = [
+  {
+    category: "CRM & Marketing Platforms",
+    tools: [
+      { name: "Zoho CRM", domain: "zoho.com" },
+      { name: "HubSpot", domain: "hubspot.com" },
+      { name: "Birdeye", domain: "birdeye.com" },
+      { name: "Flodesk", domain: "flodesk.com" },
+      { name: "Brevo", domain: "brevo.com" },
+      { name: "Mailchimp", domain: "mailchimp.com" },
+      { name: "Ai Sensy", domain: "aisensy.com" },
+    ]
+  },
+  {
+    category: "SEO & Analytics",
+    tools: [
+      { name: "Google Search Console", domain: "google.com" },
+      { name: "Google Analytics", domain: "google.com" },
+      { name: "SEMrush", domain: "semrush.com" },
+      { name: "Ahrefs", domain: "ahrefs.com" },
+      { name: "Moz", domain: "moz.com" },
+      { name: "Screaming Frog", domain: "screamingfrog.co.uk" },
+      { name: "Metricool", domain: "metricool.com" },
+    ]
+  },
+  {
+    category: "Project Management",
+    tools: [
+      { name: "ClickUp", domain: "clickup.com" },
+      { name: "Asana", domain: "asana.com" },
+      { name: "Trello", domain: "trello.com" },
+    ]
+  },
+  {
+    category: "Content & AI",
+    tools: [
+      { name: "Canva", domain: "canva.com" },
+      { name: "Generative AI", domain: "openai.com" },
+    ]
+  }
+];
+
 function WorkPage() {
   return (
     <div>
@@ -88,8 +130,7 @@ function WorkPage() {
               with <span className="text-gradient">Strategy.</span>
             </h1>
             <p className="mt-6 max-w-lg text-muted-foreground">
-              A focused career trajectory transitioning from mathematical foundations to data
-              science and growth marketing. I build narratives from numbers.
+              A focused career trajectory in orchestrating digital growth, multi-channel marketing, and data-driven engagement. I build scalable strategies that convert.
             </p>
           </div>
           <div className="lg:col-span-5">
@@ -176,14 +217,29 @@ function WorkPage() {
       </section>
 
       {/* TECH STACK */}
-      <section className="mx-auto max-w-7xl px-6 lg:px-10 py-12 text-center">
-        <h2 className="font-display text-3xl md:text-4xl font-bold tracking-tight">Tech Stack</h2>
-        <div className="mt-8 flex flex-wrap justify-center gap-3">
-          {["Python", "Power BI", "SQL", "SEO Strategy", "SSM", "Google Analytics", "Data Visualization", "Tableau", "SEMrush", "HubSpot"].map(
-            (t) => (
-              <Chip key={t}>{t}</Chip>
-            ),
-          )}
+      <section className="mx-auto max-w-7xl px-6 lg:px-10 py-16">
+        <h2 className="font-display text-4xl md:text-5xl font-bold tracking-tight text-center">Toolkit &amp; Platforms</h2>
+        <div className="mt-12 grid md:grid-cols-2 gap-8">
+          {toolCategories.map((cat) => (
+            <div key={cat.category} className="surface-card p-8">
+              <h3 className="font-display font-semibold text-xl mb-6">{cat.category}</h3>
+              <div className="flex flex-wrap gap-4">
+                {cat.tools.map((t) => (
+                  <div key={t.name} className="flex items-center gap-2 bg-background border border-border px-3 py-2 rounded-lg text-sm font-medium">
+                    <img
+                      src={`https://logo.clearbit.com/${t.domain}`}
+                      alt={t.name}
+                      className="size-5 rounded-sm object-contain bg-white"
+                      onError={(e) => {
+                        e.currentTarget.style.display = 'none';
+                      }}
+                    />
+                    {t.name}
+                  </div>
+                ))}
+              </div>
+            </div>
+          ))}
         </div>
       </section>
 
@@ -201,7 +257,9 @@ function WorkPage() {
           </p>
           <div className="mt-8">
             <a
-              href="https://www.linkedin.com/in/shruthi-ram-r-s-a6b7b62b5/"
+              href="https://mail.google.com/mail/?view=cm&fs=1&to=shruthiharshiniram2003@gmail.com"
+              target="_blank"
+              rel="noopener noreferrer"
               className="btn-primary inline-flex items-center gap-2 px-6 py-3 text-sm font-semibold"
             >
               Reach Out <ArrowRight className="size-4" />

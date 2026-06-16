@@ -25,23 +25,23 @@ export const Route = createFileRoute("/about")({
 const achievements = [
   {
     num: "01",
-    title: "Academic Excellence",
-    body: "Ranked among the Top 3 students in M.Sc Data Science cohort, with rigorous focus on algorithmic design and data structures.",
+    title: "Digital Marketing Impact",
+    body: "Spearheaded SEO and social media campaigns that resulted in a 25% average increase in organic reach and engagement.",
   },
   {
     num: "02",
-    title: "Scopus-Indexed Publications",
-    body: "Two research papers published in Scopus-indexed journals — long-document summarization and hybrid biomedical NER.",
+    title: "Omnichannel Engagement",
+    body: "Successfully integrated WhatsApp and Email marketing automation into client workflows, significantly boosting customer retention.",
   },
   {
     num: "03",
-    title: "Kaggle & Code Galatta",
-    body: "Intro to Programming certification from Kaggle and C / C++ / Python certification from Code Galatta.",
+    title: "Data-Driven Approach",
+    body: "Ranked among the Top 3 students in M.Sc Data Science, leveraging deep analytical skills to inform and optimize marketing strategies.",
   },
   {
     num: "04",
-    title: "Power BI Workshop",
-    body: "AI Dashboards using Microsoft Power BI — Skill Nation Research workshop on executive-grade reporting.",
+    title: "Scopus-Indexed AI Research",
+    body: "Two research papers published in Scopus-indexed journals — showcasing a strong foundation in deep learning and natural language processing.",
   },
 ];
 
@@ -65,8 +65,7 @@ function AboutPage() {
               &amp; Logic.
             </h1>
             <p className="mt-6 max-w-lg text-muted-foreground">
-              A synthesis of technical prowess in programming and strategic insight in digital
-              marketing. Transforming complex data into actionable narratives.
+              A synthesis of strategic insight in digital marketing and analytical prowess. Driving growth through SEO, Social, Email, and WhatsApp campaigns backed by data.
             </p>
           </div>
           <div className="lg:col-span-5">
@@ -102,58 +101,67 @@ function AboutPage() {
         </div>
 
         <div className="mt-10 grid lg:grid-cols-12 gap-5">
-          <div className="surface-card p-7 lg:col-span-3">
-            <div className="size-9 rounded-md bg-primary/10 text-primary flex items-center justify-center">
-              <Code2 className="size-4" />
-            </div>
-            <h3 className="mt-5 font-display font-semibold text-lg">Programming</h3>
-            <p className="mt-2 text-sm text-muted-foreground">
-              Building scalable scripts and automated analytical workflows.
-            </p>
-            <div className="mt-5 flex flex-wrap gap-2">
-              <Chip>Python</Chip>
-              <Chip>SQL</Chip>
-              <Chip>Automation</Chip>
-            </div>
-          </div>
-
           <div className="surface-card p-7 lg:col-span-5">
             <div className="size-9 rounded-md bg-primary/10 text-primary flex items-center justify-center">
               <Megaphone className="size-4" />
             </div>
             <h3 className="mt-5 font-display font-semibold text-lg">Digital Marketing</h3>
             <p className="mt-2 text-sm text-muted-foreground">
-              Strategic brand positioning through search optimization and social media
-              precision. I focus on ROI-driven campaigns and organic growth loops.
+              Strategic brand positioning through search optimization, social media management, and direct communication channels. I focus on ROI-driven campaigns, organic growth loops, and engaging email and WhatsApp sequences.
+            </p>
+            <div className="mt-5 flex flex-wrap gap-2">
+              <Chip>SEO</Chip>
+              <Chip>SMM</Chip>
+              <Chip>Email</Chip>
+              <Chip>WhatsApp</Chip>
+            </div>
+          </div>
+
+          <div className="surface-card p-7 lg:col-span-3">
+            <div className="size-9 rounded-md bg-primary/10 text-primary flex items-center justify-center">
+              <BarChart2 className="size-4" />
+            </div>
+            <h3 className="mt-5 font-display font-semibold text-lg">Data Science</h3>
+            <p className="mt-2 text-sm text-muted-foreground">
+              Using Python and SQL to analyze marketing data, predict trends, and optimize campaign performance.
             </p>
           </div>
 
-          <div className="lg:col-span-4 grid grid-cols-1 gap-5">
-            <div className="surface-card p-5">
-              <div className="font-display font-semibold text-primary">SEO</div>
-              <p className="text-xs text-muted-foreground mt-1">Search Optimization</p>
+          <div className="lg:col-span-4 grid grid-cols-2 gap-5">
+            <div className="surface-card p-5 flex flex-col justify-center">
+              <div className="font-display font-semibold text-primary">Email</div>
+              <p className="text-xs text-muted-foreground mt-1">Lead Nurturing</p>
             </div>
-            <div className="surface-card p-5">
-              <div className="font-display font-semibold text-primary">SSM</div>
-              <p className="text-xs text-muted-foreground mt-1">Social Media Precision</p>
+            <div className="surface-card p-5 flex flex-col justify-center">
+              <div className="font-display font-semibold text-primary">WA API</div>
+              <p className="text-xs text-muted-foreground mt-1">Direct Engagement</p>
+            </div>
+            <div className="surface-card p-5 flex flex-col justify-center">
+              <div className="font-display font-semibold text-primary">SEO</div>
+              <p className="text-xs text-muted-foreground mt-1">Organic Reach</p>
+            </div>
+            <div className="surface-card p-5 flex flex-col justify-center">
+              <div className="font-display font-semibold text-primary">SMM</div>
+              <p className="text-xs text-muted-foreground mt-1">Brand Presence</p>
             </div>
           </div>
 
           <div className="surface-card p-7 lg:col-span-12 flex flex-wrap items-center justify-between gap-6">
             <div>
-              <h3 className="font-display font-semibold text-lg">Analytical Toolkit</h3>
+              <h3 className="font-display font-semibold text-lg">Marketing & Analytical Toolkit</h3>
               <p className="mt-2 text-sm text-muted-foreground max-w-md">
-                Tools I use to visualize and dissect complex data sets.
+                Tools I use to manage campaigns and visualize complex data sets.
               </p>
             </div>
             <div className="flex flex-wrap gap-3">
-              <Chip><BarChart2 className="size-3.5" /> SEMrush</Chip>
-              <Chip><Share2 className="size-3.5" /> Power BI</Chip>
-              <Chip><Search className="size-3.5" /> SQL Ops</Chip>
+              <Chip><Search className="size-3.5" /> SEMrush</Chip>
+              <Chip><Mail className="size-3.5" /> Mailchimp</Chip>
+              <Chip><Share2 className="size-3.5" /> WhatsApp API</Chip>
               <Chip>Google Analytics</Chip>
               <Chip>HubSpot</Chip>
+              <Chip>Power BI</Chip>
+              <Chip>SQL</Chip>
               <Chip>Canva</Chip>
-              <Chip>Birdeye</Chip>
             </div>
           </div>
         </div>
@@ -203,7 +211,9 @@ function AboutPage() {
           </p>
           <div className="mt-8 flex flex-wrap gap-3 justify-center">
             <a
-              href="https://www.linkedin.com/in/shruthi-ram-r-s-a6b7b62b5/"
+              href="https://mail.google.com/mail/?view=cm&fs=1&to=shruthiharshiniram2003@gmail.com"
+              target="_blank"
+              rel="noopener noreferrer"
               className="btn-primary inline-flex items-center gap-2 px-6 py-3 text-sm font-semibold"
             >
               <Mail className="size-4" /> Email Me

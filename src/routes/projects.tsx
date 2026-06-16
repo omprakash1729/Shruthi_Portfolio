@@ -31,13 +31,12 @@ function ProjectsPage() {
       <section className="mx-auto max-w-7xl px-6 lg:px-10 pt-16 pb-12">
         <Eyebrow>Selected Works 2026</Eyebrow>
         <h1 className="mt-5 font-display font-bold tracking-tight text-5xl md:text-7xl leading-[1.02]">
-          Engineering <span className="text-gradient">Intelligence.</span>
+          Engineering <span className="text-gradient">Growth.</span>
           <br />
-          Shaping Digital Growth.
+          Data-Backed Strategies.
         </h1>
         <p className="mt-6 max-w-xl text-muted-foreground">
-          I focus on bridging the gap between raw analytical research and intuitive, useful
-          interfaces — published, shipped, and replicable.
+          I focus on bridging the gap between raw analytical research and impactful digital marketing campaigns — driving organic traffic and boosting conversions.
         </p>
       </section>
 
@@ -55,19 +54,17 @@ function ProjectsPage() {
           </div>
           <div className="p-8 md:p-10 flex flex-col">
             <div className="flex flex-wrap gap-2">
-              <Chip>Python</Chip>
-              <Chip>PyTorch</Chip>
+              <Chip>SEO Strategy</Chip>
+              <Chip>Content Marketing</Chip>
               <Chip>
-                <span className="size-1.5 rounded-full bg-primary" /> Scopus Indexed
+                <span className="size-1.5 rounded-full bg-primary" /> +40% Organic Traffic
               </Chip>
             </div>
             <h2 className="mt-5 font-display font-bold text-3xl md:text-4xl tracking-tight">
-              E-RCBLM: Long-Document Summarization
+              B2B Organic Traffic Acceleration
             </h2>
             <p className="mt-4 text-muted-foreground">
-              An abstractive summarization system built on the Longformer Encoder-Decoder (LED)
-              model — designed to distill massive datasets into concise, semantically faithful
-              summaries while preserving long-range context.
+              A comprehensive SEO and content strategy designed to capture high-intent search queries. Overhauled site architecture, optimized on-page elements, and built authoritative backlinks, resulting in sustained organic growth.
             </p>
             <div className="mt-auto pt-8">
               <a
@@ -94,17 +91,14 @@ function ProjectsPage() {
           </div>
           <div className="p-7">
             <div className="flex flex-wrap gap-2">
-              <Chip>Scikit-learn</Chip>
-              <Chip>
-                <span className="size-1.5 rounded-full bg-primary" /> Scopus
-              </Chip>
+              <Chip>Email Marketing</Chip>
+              <Chip>WhatsApp API</Chip>
             </div>
             <h3 className="mt-4 font-display font-semibold text-xl">
-              Hybrid Biomedical Named Entity Recognition
+              Omnichannel Lead Nurture Sequence
             </h3>
             <p className="mt-2 text-sm text-muted-foreground">
-              Transformer + CRF biomedical entity extraction with consistency-rule repair to
-              improve BIO label coherence.
+              Integrated Mailchimp and WhatsApp API automation workflow that significantly improved lead retention and boosted conversion rates by 25%.
             </p>
             <div className="mt-5 h-0.5 w-12 rounded-full" style={{ background: "var(--gradient-primary)" }} />
           </div>
@@ -121,15 +115,14 @@ function ProjectsPage() {
           </div>
           <div className="p-7">
             <div className="flex flex-wrap gap-2">
+              <Chip>Data Science</Chip>
               <Chip>Python</Chip>
-              <Chip>Climate Data</Chip>
             </div>
             <h3 className="mt-4 font-display font-semibold text-xl">
-              Climate-Based Crop Recommendation
+              Marketing Data Science Foundation
             </h3>
             <p className="mt-2 text-sm text-muted-foreground">
-              Empowering sustainable agriculture with predictive analytics that factor soil
-              health and localized weather patterns.
+              Building on an academic background in ML: Developed predictive systems like a Climate Crop Recommender and NLP summarizers.
             </p>
             <div className="mt-5 h-0.5 w-12 rounded-full" style={{ background: "var(--gradient-primary)" }} />
           </div>
@@ -159,7 +152,9 @@ function ProjectsPage() {
             Let's build something meaningful together.
           </h3>
           <a
-            href="https://www.linkedin.com/in/shruthi-ram-r-s-a6b7b62b5/"
+            href="https://mail.google.com/mail/?view=cm&fs=1&to=shruthiharshiniram2003@gmail.com"
+            target="_blank"
+            rel="noopener noreferrer"
             className="mt-auto pt-6 inline-flex items-center gap-2 self-start rounded-full bg-background text-foreground px-5 py-2.5 text-sm font-semibold hover:bg-card-elevated transition-colors"
           >
             Say Hello <ArrowRight className="size-4" />

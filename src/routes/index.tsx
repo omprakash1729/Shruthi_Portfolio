@@ -1,5 +1,5 @@
 import { createFileRoute, Link } from "@tanstack/react-router";
-import { ArrowRight, BarChart3, Sparkles, Workflow, Palette, ChartLine } from "lucide-react";
+import { ArrowRight, BarChart3, Search, MessageSquare, Megaphone } from "lucide-react";
 import { Eyebrow, Chip } from "@/components/ui-bits";
 import heroPortrait from "@/assets/hero-portrait.jpg";
 import projectErcblm from "@/assets/project-ercblm.jpg";
@@ -27,69 +27,69 @@ export const Route = createFileRoute("/")({
 
 const capabilities = [
   {
-    icon: ChartLine,
-    title: "Predictive Analytics",
-    body: "Modeling consumer behavior to anticipate market shifts before they happen.",
+    icon: Search,
+    title: "SEO & Organic Growth",
+    body: "Optimizing content and technical infrastructure to dominate search rankings and drive high-intent traffic.",
   },
   {
-    icon: Sparkles,
-    title: "Omnichannel Strategy",
-    body: "Seamless brand narratives across every digital touchpoint.",
+    icon: MessageSquare,
+    title: "Direct Marketing",
+    body: "Crafting highly engaging Email and WhatsApp marketing campaigns that convert and retain audiences.",
   },
   {
-    icon: Workflow,
-    title: "Growth Engineering",
-    body: "Utilizing Python and SQL to automate and scale marketing funnels.",
+    icon: Megaphone,
+    title: "Social Media Management",
+    body: "Building vibrant communities and brand narratives across major social platforms (SMM).",
   },
   {
-    icon: Palette,
-    title: "Visual Content",
-    body: "High-fidelity design that captures attention in a crowded digital space.",
+    icon: BarChart3,
+    title: "Data-Driven Insights",
+    body: "Utilizing Python and SQL to analyze campaign performance and uncover actionable growth opportunities.",
   },
 ];
 
 const ecosystem = [
   {
     num: "01",
-    tag: "Growth",
-    title: "Social Media Management",
-    body: "Planning, scheduling, and engagement across Instagram, Facebook, LinkedIn, and Google Business Profile.",
-    chips: ["CONTENT_PLANNING", "AUDIENCE_GROWTH", "REPUTATION_MGMT"],
+    tag: "Acquisition",
+    title: "SEO & SMM Strategy",
+    body: "Comprehensive search engine optimization (on-page & technical) and full-cycle social media management to maximize brand visibility.",
+    chips: ["SEO", "SOCIAL_MEDIA", "CONTENT_STRATEGY"],
   },
   {
     num: "02",
-    tag: "Analytics",
-    title: "Data Insights",
-    body: "Building dashboards in Power BI and Tableau, cleaning datasets with Python and SQL for KPI tracking.",
-    chips: ["PYTHON", "POWER_BI", "SQL"],
+    tag: "Retention",
+    title: "Email & WhatsApp",
+    body: "Designing automated email sequences and highly personalized WhatsApp marketing blasts to nurture leads and boost conversion rates.",
+    chips: ["EMAIL_MARKETING", "WHATSAPP_API", "AUTOMATION"],
   },
   {
     num: "03",
-    tag: "Creative",
-    title: "Content & SEO",
-    body: "On-page SEO, content marketing, and brand storytelling tuned to high-intent search queries.",
-    chips: ["SEO", "CONTENT_STRATEGY", "COPYWRITING"],
+    tag: "Analytics",
+    title: "Marketing Data Science",
+    body: "Backing every creative decision with empirical evidence. Building dashboards in Power BI and cleaning datasets with Python/SQL.",
+    chips: ["PYTHON", "POWER_BI", "SQL"],
   },
 ];
 
 const featured = [
   {
-    img: projectErcblm,
-    tag: "RESEARCH · NLP",
-    title: "E-RCBLM",
-    body: "Long-document text summarization with the LED model. Scopus-indexed publication.",
+    img: projectCrop,
+    tag: "SEO · CONTENT",
+    title: "Organic Traffic Acceleration",
+    body: "A comprehensive SEO strategy overhauling site architecture and content, leading to a 40% increase in organic search visibility.",
   },
   {
     img: projectBioner,
-    tag: "DEEP LEARNING",
-    title: "Hybrid BioNER",
-    body: "Transformer + CRF biomedical entity recognition with consistency-rule repair.",
+    tag: "EMAIL · WHATSAPP",
+    title: "Omnichannel Lead Nurture",
+    body: "Integrated Mailchimp and WhatsApp API automation workflow that improved lead retention and boosted conversion rates by 25%.",
   },
   {
-    img: projectCrop,
-    tag: "ML · WEB APP",
-    title: "Climate Crop Recommender",
-    body: "Flask + scikit-learn system suggesting crops from soil and climate data.",
+    img: projectErcblm,
+    tag: "DATA SCIENCE",
+    title: "Marketing Analytics Dashboard",
+    body: "A Power BI and Python-based solution to track cross-channel marketing KPIs, enabling real-time ROI tracking.",
   },
 ];
 
@@ -110,12 +110,10 @@ function HomePage() {
               <br />
               Digital Marketing
               <br />
-              &amp; Data Science
+              &amp; Growth Strategy
             </h1>
             <p className="mt-6 max-w-xl text-muted-foreground text-base md:text-lg">
-              Bridging the gap between raw analytical insight and high-impact digital
-              storytelling. I engineer data-driven marketing ecosystems that drive measurable
-              growth.
+              Bridging the gap between creative digital storytelling and analytical insight. I engineer SEO, SMM, and direct marketing ecosystems (Email/WhatsApp) that drive measurable growth.
             </p>
             <div className="mt-8 flex flex-wrap gap-3">
               <Link
@@ -266,16 +264,20 @@ function HomePage() {
         </p>
         <div className="mt-8 flex flex-wrap gap-3 justify-center">
           <a
-            href="https://www.linkedin.com/in/shruthi-ram-r-s-a6b7b62b5/"
+            href="https://mail.google.com/mail/?view=cm&fs=1&to=shruthiharshiniram2003@gmail.com"
+            target="_blank"
+            rel="noopener noreferrer"
             className="btn-primary inline-flex px-6 py-3 text-sm font-semibold gap-2 items-center"
           >
             Start a Project <BarChart3 className="size-4" />
           </a>
           <a
-            href="/Shruthi_Ram_Resume.pdf"
+            href="https://okay-bronze-bcikomum.edgeone.app/Shruthi%27s_%20Resume_%20Digital_Marketing.pdf"
+            target="_blank"
+            rel="noopener noreferrer"
             className="btn-ghost inline-flex px-6 py-3 text-sm font-semibold"
           >
-            Download Resume
+            View Resume
           </a>
         </div>
       </section>

@@ -1,7 +1,5 @@
 const socials = [
   { label: "LinkedIn", href: "https://www.linkedin.com/in/shruthi-ram-r-s-a6b7b62b5/" },
-  { label: "GitHub", href: "https://github.com" },
-  { label: "Twitter", href: "https://twitter.com" },
   { label: "+91 94862 09620", href: "tel:+919486209620" },
 ];
 
@@ -19,7 +17,7 @@ export function SiteFooter() {
         </div>
         <div className="mt-8 h-px w-24 mx-auto bg-border" />
         <p className="mt-5 text-xs font-mono text-muted-foreground tracking-widest">
-          © 2026 SHRUTHI RAM R S · BUILT WITH PRECISION
+          © 2026 SHRUTHI RAM R S
         </p>
       </div>
     </footer>
