@@ -35,7 +35,7 @@ export function SiteNav() {
 
         <div className="flex items-center gap-3">
           <a
-            href="mailto:shruthiramrs@example.com"
+            href="https://www.linkedin.com/in/shruthi-ram-r-s-a6b7b62b5/"
             className="hidden sm:inline-flex btn-primary px-4 py-2 text-sm font-medium items-center gap-2"
           >
             Get in Touch

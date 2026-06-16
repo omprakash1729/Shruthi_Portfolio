@@ -1,8 +1,8 @@
 const socials = [
-  { label: "LinkedIn", href: "https://www.linkedin.com" },
+  { label: "LinkedIn", href: "https://www.linkedin.com/in/shruthi-ram-r-s-a6b7b62b5/" },
   { label: "GitHub", href: "https://github.com" },
   { label: "Twitter", href: "https://twitter.com" },
-  { label: "Email", href: "mailto:shruthiramrs@example.com" },
+  { label: "Email", href: "https://www.linkedin.com/in/shruthi-ram-r-s-a6b7b62b5/" },
 ];
 
 export function SiteFooter() {
