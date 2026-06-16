@@ -16,7 +16,7 @@ import "crypto";
 import "async_hooks";
 import "stream";
 import "../_libs/isbot.mjs";
-const appCss = "/assets/styles-C9LdJfdX.css";
+const appCss = "/assets/styles-BhwcB8BU.css";
 function reportLovableError(error, context = {}) {
   if (typeof window === "undefined") return;
   window.__lovableEvents?.captureException?.(
@@ -186,7 +186,7 @@ function RootComponent() {
     /* @__PURE__ */ jsxRuntimeExports.jsx(SiteFooter, {})
   ] }) });
 }
-const $$splitComponentImporter$3 = () => import("./work-DWIRhxZy.mjs");
+const $$splitComponentImporter$3 = () => import("./work-DEXAM4bh.mjs");
 const Route$3 = createFileRoute("/work")({
   head: () => ({
     meta: [{
@@ -205,7 +205,7 @@ const Route$3 = createFileRoute("/work")({
   component: lazyRouteComponent($$splitComponentImporter$3, "component")
 });
 const projectErcblm = "/assets/project-ercblm-CAHmxUw_.jpg";
-const $$splitComponentImporter$2 = () => import("./projects-C2kEEXX4.mjs");
+const $$splitComponentImporter$2 = () => import("./projects-Jv9sCQyM.mjs");
 const Route$2 = createFileRoute("/projects")({
   head: () => ({
     meta: [{
@@ -244,7 +244,7 @@ const Route$1 = createFileRoute("/about")({
   }),
   component: lazyRouteComponent($$splitComponentImporter$1, "component")
 });
-const $$splitComponentImporter = () => import("./index-DVf4AZKh.mjs");
+const $$splitComponentImporter = () => import("./index-BtzFJwuv.mjs");
 const Route = createFileRoute("/")({
   head: () => ({
     meta: [{

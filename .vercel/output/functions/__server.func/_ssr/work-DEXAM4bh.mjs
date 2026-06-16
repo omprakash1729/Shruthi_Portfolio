@@ -14,6 +14,9 @@ const experience = [{
   }, {
     icon: Search,
     text: "Perform SEO optimization via keyword research and content improvements, supporting website visibility."
+  }, {
+    icon: TrendingUp,
+    text: "Improved product demo booking rates by implementing AiSensy WhatsApp marketing workflows and targeting BNI community members during a corporate financial crunch."
   }]
 }, {
   tag: "Remote",

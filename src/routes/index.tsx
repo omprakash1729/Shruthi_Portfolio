@@ -75,21 +75,21 @@ const ecosystem = [
 const featured = [
   {
     img: projectCrop,
-    tag: "SEO · CONTENT",
-    title: "Organic Traffic Acceleration",
-    body: "A comprehensive SEO strategy overhauling site architecture and content, leading to a 40% increase in organic search visibility.",
+    tag: "ML · AGRICULTURE",
+    title: "Climate-Based Crop Recommendation",
+    body: "A machine learning system recommending optimal crops based on soil nutrients and climatic factors.",
   },
   {
     img: projectBioner,
-    tag: "EMAIL · WHATSAPP",
-    title: "Omnichannel Lead Nurture",
-    body: "Integrated Mailchimp and WhatsApp API automation workflow that improved lead retention and boosted conversion rates by 25%.",
+    tag: "NLP · BIO-AI",
+    title: "Hybrid Biomedical NER",
+    body: "A hybrid BioNER model using PubMedBERT, Transformer-CRF, and a BIO consistency rule repair module to achieve a benchmark F1 score of 89.76%.",
   },
   {
     img: projectErcblm,
-    tag: "DATA SCIENCE",
-    title: "Marketing Analytics Dashboard",
-    body: "A Power BI and Python-based solution to track cross-channel marketing KPIs, enabling real-time ROI tracking.",
+    tag: "SEO · CONTENT",
+    title: "B2B Organic Traffic Acceleration",
+    body: "A comprehensive SEO strategy overhauling site architecture and content, leading to a 40% increase in organic search visibility.",
   },
 ];
 

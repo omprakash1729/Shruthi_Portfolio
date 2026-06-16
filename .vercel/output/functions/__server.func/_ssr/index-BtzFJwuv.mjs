@@ -1,7 +1,7 @@
 import { j as jsxRuntimeExports } from "../_libs/react.mjs";
 import { L as Link } from "../_libs/tanstack__react-router.mjs";
 import { E as Eyebrow, C as Chip } from "./ui-bits-Du-Z9It0.mjs";
-import { p as projectErcblm } from "./router-pO7r2nqO.mjs";
+import { p as projectErcblm } from "./router-CJMF0mtY.mjs";
 import { a as projectCrop, p as projectBioner } from "./project-crop-Bmbg1rI6.mjs";
 import { A as ArrowRight, S as Search, e as MessageSquare, b as Megaphone, f as ChartColumn } from "../_libs/lucide-react.mjs";
 import "../_libs/tanstack__router-core.mjs";
@@ -58,19 +58,19 @@ const ecosystem = [{
 }];
 const featured = [{
   img: projectCrop,
-  tag: "SEO · CONTENT",
-  title: "Organic Traffic Acceleration",
-  body: "A comprehensive SEO strategy overhauling site architecture and content, leading to a 40% increase in organic search visibility."
+  tag: "ML · AGRICULTURE",
+  title: "Climate-Based Crop Recommendation",
+  body: "A machine learning system recommending optimal crops based on soil nutrients and climatic factors."
 }, {
   img: projectBioner,
-  tag: "EMAIL · WHATSAPP",
-  title: "Omnichannel Lead Nurture",
-  body: "Integrated Mailchimp and WhatsApp API automation workflow that improved lead retention and boosted conversion rates by 25%."
+  tag: "NLP · BIO-AI",
+  title: "Hybrid Biomedical NER",
+  body: "A hybrid BioNER model using PubMedBERT, Transformer-CRF, and a BIO consistency rule repair module to achieve a benchmark F1 score of 89.76%."
 }, {
   img: projectErcblm,
-  tag: "DATA SCIENCE",
-  title: "Marketing Analytics Dashboard",
-  body: "A Power BI and Python-based solution to track cross-channel marketing KPIs, enabling real-time ROI tracking."
+  tag: "SEO · CONTENT",
+  title: "B2B Organic Traffic Acceleration",
+  body: "A comprehensive SEO strategy overhauling site architecture and content, leading to a 40% increase in organic search visibility."
 }];
 function HomePage() {
   return /* @__PURE__ */ jsxRuntimeExports.jsxs("div", { children: [
