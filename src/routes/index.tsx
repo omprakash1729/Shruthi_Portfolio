@@ -140,12 +140,6 @@ function HomePage() {
                 height={1152}
                 className="absolute inset-0 size-full object-cover opacity-90"
               />
-              <div className="absolute top-5 right-5 surface-card px-4 py-3 text-right">
-                <div className="text-[0.6rem] font-mono uppercase tracking-widest text-muted-foreground">
-                  Campaigns Shipped
-                </div>
-                <div className="font-display text-2xl font-bold">25+</div>
-              </div>
               <div className="absolute bottom-5 left-5 surface-card px-4 py-3">
                 <div className="text-[0.6rem] font-mono uppercase tracking-widest text-muted-foreground">
                   Organic Reach Lift
