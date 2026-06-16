@@ -1,0 +1,1 @@
+import{j as a}from"./index-BZI-eiPK.js";function r({children:s}){return a.jsxs("span",{className:"eyebrow",children:[a.jsx("span",{className:"inline-block h-px w-6 bg-primary/70"}),s]})}function e({children:s}){return a.jsx("span",{className:"chip",children:s})}export{e as C,r as E};

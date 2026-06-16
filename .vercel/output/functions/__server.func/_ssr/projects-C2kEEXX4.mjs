@@ -1,6 +1,6 @@
 import { j as jsxRuntimeExports } from "../_libs/react.mjs";
 import { E as Eyebrow, C as Chip } from "./ui-bits-Du-Z9It0.mjs";
-import { p as projectErcblm } from "./router-BQgMmU_e.mjs";
+import { p as projectErcblm } from "./router-pO7r2nqO.mjs";
 import { p as projectBioner, a as projectCrop } from "./project-crop-Bmbg1rI6.mjs";
 import { A as ArrowRight } from "../_libs/lucide-react.mjs";
 import "../_libs/tanstack__query-core.mjs";

@@ -1,7 +1,7 @@
 import { j as jsxRuntimeExports } from "../_libs/react.mjs";
 import { L as Link } from "../_libs/tanstack__react-router.mjs";
 import { E as Eyebrow, C as Chip } from "./ui-bits-Du-Z9It0.mjs";
-import { p as projectErcblm } from "./router-BQgMmU_e.mjs";
+import { p as projectErcblm } from "./router-pO7r2nqO.mjs";
 import { a as projectCrop, p as projectBioner } from "./project-crop-Bmbg1rI6.mjs";
 import { A as ArrowRight, S as Search, e as MessageSquare, b as Megaphone, f as ChartColumn } from "../_libs/lucide-react.mjs";
 import "../_libs/tanstack__router-core.mjs";
@@ -100,10 +100,6 @@ function HomePage() {
         ] }),
         /* @__PURE__ */ jsxRuntimeExports.jsx("div", { className: "lg:col-span-5", children: /* @__PURE__ */ jsxRuntimeExports.jsxs("div", { className: "surface-card relative aspect-[4/5] overflow-hidden", children: [
           /* @__PURE__ */ jsxRuntimeExports.jsx("img", { src: heroPortrait, alt: "Abstract portrait formed from orange data particles", width: 896, height: 1152, className: "absolute inset-0 size-full object-cover opacity-90" }),
-          /* @__PURE__ */ jsxRuntimeExports.jsxs("div", { className: "absolute top-5 right-5 surface-card px-4 py-3 text-right", children: [
-            /* @__PURE__ */ jsxRuntimeExports.jsx("div", { className: "text-[0.6rem] font-mono uppercase tracking-widest text-muted-foreground", children: "Campaigns Shipped" }),
-            /* @__PURE__ */ jsxRuntimeExports.jsx("div", { className: "font-display text-2xl font-bold", children: "25+" })
-          ] }),
           /* @__PURE__ */ jsxRuntimeExports.jsxs("div", { className: "absolute bottom-5 left-5 surface-card px-4 py-3", children: [
             /* @__PURE__ */ jsxRuntimeExports.jsx("div", { className: "text-[0.6rem] font-mono uppercase tracking-widest text-muted-foreground", children: "Organic Reach Lift" }),
             /* @__PURE__ */ jsxRuntimeExports.jsx("div", { className: "font-display text-2xl font-bold text-gradient", children: "+25%" })

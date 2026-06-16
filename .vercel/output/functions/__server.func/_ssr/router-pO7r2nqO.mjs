@@ -205,7 +205,7 @@ const Route$3 = createFileRoute("/work")({
   component: lazyRouteComponent($$splitComponentImporter$3, "component")
 });
 const projectErcblm = "/assets/project-ercblm-CAHmxUw_.jpg";
-const $$splitComponentImporter$2 = () => import("./projects-Dw-A0XBv.mjs");
+const $$splitComponentImporter$2 = () => import("./projects-C2kEEXX4.mjs");
 const Route$2 = createFileRoute("/projects")({
   head: () => ({
     meta: [{
@@ -244,7 +244,7 @@ const Route$1 = createFileRoute("/about")({
   }),
   component: lazyRouteComponent($$splitComponentImporter$1, "component")
 });
-const $$splitComponentImporter = () => import("./index-B0v4x_LO.mjs");
+const $$splitComponentImporter = () => import("./index-DVf4AZKh.mjs");
 const Route = createFileRoute("/")({
   head: () => ({
     meta: [{
